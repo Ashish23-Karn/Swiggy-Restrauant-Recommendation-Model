@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PROJECT_SWIGGY</title>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<style>
+    .text-white {
+        color: white;
+    }
+</style>
+
+<body style="background-color: black">
+    <nav class="navbar" style="background-color:#00a6">
+        <a class="navbar-brand" > Restaurant Recommender </a>
+        <ul class="nav navbar-nav">
+            <li><a href="/">Home</a>  </li>
+            <li><a href="/recommend">Recommender</a>  </li>
+            <li><a>Contact</a>  </li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="text-white" style="font-size: 40px">Objective of the Project</h1>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+            <title><h1 class="text-white" style="font-size:20px">Objective of the Project</h1></title>
+                <body class="text-white" style="font-size:20px"><p>
+                    Build a recommendation model for someone who wants to open a restaurant in Bangalore, which works as follows :
+                    <ul>
+                    <li>Inputs :</li>
+                        <ol>
+                             <li>Cuisine</li>
+                            <li>Preferred Location</li>
+                            <li>Preferred Price for 1</li>
+                        </ol>
+                    <li>Ouputs 1:</li>
+                        <ol>
+                            <li>For the area selected, display the popular cuisine</li>
+                            <li>average price for 2</li>
+                            <li>Display the most popular Restaurant and Cuisine they are serving</li>
+                            <li>Display the most popular restaurant that is serving the same cuisine as user provided cuisine
+                            </li>
+                        </ol>
+                    <li>Ouputs 2:</li>
+                        <ol>
+                            <li>Suggest a Price for 1 (If preferred price for 1 is lower than model prediction you can suggest the price increase to some percentage but lower than predicted and Preferred price is higher than the suggested, recommend the optimum price which will be equal to predicted price by the model)</li>
+                            <li>Based on Cuisine and Price, suggest the best possible location</li>
+                        </ol>
+                    </ul>
+                </body>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PROJECT_SWIGGY</title>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<style>
+    body {
+      background-color: #f8f9fa;
+    }
+
+    .table {
+      background-color: #fff;
+    }
+
+    .table th,
+    .table td {
+      color: #343a40;
+    }
+    .text-white{
+        color:white
+    }
+</style>
+<body style="background-color: black">
+    <nav class="navbar" style="background-color:#00a6">
+        <a class="navbar-brand" > Restaurant Recommender </a>
+        <ul class="nav navbar-nav">
+            <li><a href="/">Home</a>  </li>
+            <li><a href="/recommend">Recommender</a>  </li>
+            <li><a>Contact</a>  </li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+           <h1 style="color: white;" class="text-center mb-4">USER_INPUTS</h1>
+                <form action="/reco" method="post">
+                    <input type="text" name="user_location" list="location_list" placeholder="Enter your preferred location:" required="required" class="form-control">
+                    <datalist id="location_list">
+                        {% for location in df['Location'].unique() %}
+                            <option value="{{ location }}">
+                        {% endfor %}
+                    </datalist>
+                    <input type="text" name="user_cusine" list="cuisine_list" placeholder="Enter your preferred cuisine:" required="required" class="form-control">
+                    <datalist id="cuisine_list">
+                        {% for cuisine in df['Cuisine'].unique() %}
+                            <option value="{{ cuisine }}">
+                        {% endfor %}
+                    </datalist>
+                    <input type="text" name="user_price" placeholder="Enter your preferred price for two people:" required="required" class="form-control">
+                    <input type="submit" class="btn btn-lg btn-warning">
+                </form>
+
+            </div>
+        </div>
+
+        {% if average_price %}
+
+        <title style="color: white;">Recommendations are:</title>
+
+        <div class="container">
+  <div class="row">
+    <div class="col-12">
+      <h1 style="color: white;" class="text-center mb-4">Recommendations</h1>
+      <table class="table table-bordered table-hover">
+        <thead>
+          <tr>
+            <th scope="col">Attribute</th>
+            <th scope="col">Output</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">User Entered Cusine </th>
+            <td>{{ user_cuisine }}</td>
+          </tr>
+          <tr>
+            <th scope="row">User Entered Location</th>
+            <td>{{ user_location }}</td>
+          </tr>
+          <tr>
+            <th scope="row">User Entered Price</th>
+            <td>{{ user_price }}</td>
+          </tr>
+          <tr>
+            <th scope="row">Average price for two person in the given location</th>
+            <td>{{ average_price }}</td>
+          </tr>
+          <tr>
+            <th scope="row">Popular cuisine in the given location</th>
+            <td>{{ popular_cuisine }}</td>
+          </tr>
+          <tr>
+            <th scope="row">The most popular restaurant in the given location</th>
+            <td>{{ most_popular_restaurant }}</td>
+          </tr>
+          <tr>
+            <th scope="row">The most popular restaurant in the given location with the preferred cuisine</th>
+            <td>{{ most_popular_cuisine_restaurant }}</td>
+          </tr>
+          <tr>
+            <th scope="row">Suggested price</th>
+            <td>{{ suggested_price }}</td>
+          </tr>
+          <tr>
+            <th scope="row">Recommended restaurant</th>
+            <td>{{ Rec_Restaurants }}</td>
+          </tr>
+        <tr>
+            <th scope="row">Collaborative Filtering Recommended Restaurents</th>
+            <td>{{ cf_rec_restaurants }}</td>
+        </tr>
+        <tr>
+            <th scope="row">Collaborative Filtering Accuracy</th>
+            <td>{{ cf_accuracy }}</td>
+        </tr>
+        <tr>
+        <tr>
+            <th scope="row">Collaborative Filtering MSE</th>
+            <td>{{ cf_mse }}</td>
+        </tr>
+        <tr>
+        <tr>
+            <th scope="row">Collaborative Filtering MAE</th>
+            <td>{{ cf_mae }}</td>
+        </tr>
+        <tr>
+            <th scope="row">Matrix Factorization Recommended Restaurents</th>
+            <td>{{ nmf_rec_restaurants }}</td>
+          </tr>
+        <tr>
+            <th scope="row">Matrix Factorization MSE</th>
+            <td>{{ nmf_mse }}</td>
+          </tr>
+        <tr>
+        <tr>
+            <th scope="row">Matrix Factorization MAE</th>
+            <td>{{ nmf_mae }}</td>
+          </tr>
+        <tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+
+        {% endif %}
+
+
+    </div>
+
+</body>
+</html>
