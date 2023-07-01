@@ -29,6 +29,21 @@ The project involves extracting, collecting, and processing Swiggy restaurants' 
 --Phases--
 ![Screenshot 2023-07-01 074157](https://github.com/Ashish23-Karn/Swiggy-Restrauant-Recommendation-Model/assets/121361369/46949c29-50ad-47c3-a6b2-41b0dfd480a9)
 
+--Scrapping the data--
+![Screenshot 2023-07-01 175036](https://github.com/Ashish23-Karn/Swiggy-Restrauant-Recommendation-Model/assets/121361369/56bea6f7-ecaa-463f-91f7-34278f7f1161)
+
+![Screenshot 2023-07-01 175110](https://github.com/Ashish23-Karn/Swiggy-Restrauant-Recommendation-Model/assets/121361369/b04b98f6-7401-4a80-be72-b931a52c9cf1)
+
+1. To scrap the data from the Swiggy web page for Bengaluru restaurants, beautiful soup, and html5lib were used. The data extracted was in HTML format at first.
+
+![Screenshot 2023-07-01 175139](https://github.com/Ashish23-Karn/Swiggy-Restrauant-Recommendation-Model/assets/121361369/b6dd9b8b-7d16-4f06-a131-774c7ba51d74)
+
+2. After we convert the html data into some useful tabular data in CSV format, it was looking something like this having a lot of noise.
+
+![Screenshot 2023-07-01 175213](https://github.com/Ashish23-Karn/Swiggy-Restrauant-Recommendation-Model/assets/121361369/b8cc3a90-6cce-4905-bf01-bf2d28bd354a)
+
+3. This is what the cleaned data was looking like.
+
 --DashBoard Creation--
 
 Here is the main dashboard which is dynamic in nature and the slicer added is for different locations, cuisine, and restaurant name.
