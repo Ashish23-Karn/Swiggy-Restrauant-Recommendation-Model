@@ -64,4 +64,6 @@ Here are some dishes with higher prices being served in Bangalore, one can concl
 
 1. The main challenge posed by this project was to create a webpage by using HTML to show our model.
 2. Another challenge posed by this project was to scrape the data from the Swiggy website at first, cleaned it as there was a lot of noise in the data and redundant values as well, then by choosing the appropriate ml algorithm to predict correctly.
---Overall, The project/model can serve as a handful restaurant locator for the general public and the dashboard can help the decision-makers of the company to improve services and further growth. 
+3. As all of our team members are working professionals, we were finding difficulty in managing time and the time availability of each team member is different. Firstly, we brainstormed and formed a flowchart of works that helped us be on track. We allocated the work according to each person’s time availability and task priority
+
+   --Overall, The project/model can serve as a handful restaurant locator for the general public and the dashboard can help the decision-makers of the company to improve services and further growth. 
