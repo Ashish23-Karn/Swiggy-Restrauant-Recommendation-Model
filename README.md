@@ -36,7 +36,10 @@ The project involves extracting, collecting, and processing Swiggy restaurants' 
 
 ![Screenshot 2023-07-01 175110](https://github.com/Ashish23-Karn/Swiggy-Restrauant-Recommendation-Model/assets/121361369/b04b98f6-7401-4a80-be72-b931a52c9cf1)
 
-1. To scrap the data from the Swiggy web page for Bengaluru restaurants, beautiful soup, and html5lib were used. The data extracted was in HTML format at first.
+![Screenshot 2023-07-01 182526](https://github.com/Ashish23-Karn/Swiggy-Restrauant-Recommendation-Model/assets/121361369/604b39ef-e077-40a5-b9b7-ba9d23673044)
+
+
+1. To scrap the data from the Swiggy web page for Bengaluru restaurants, beautiful soup, and html5lib were used. The data extracted was in HTML format at first and classes of different objects were used to fetch the details.
 
 ![Screenshot 2023-07-01 175139](https://github.com/Ashish23-Karn/Swiggy-Restrauant-Recommendation-Model/assets/121361369/b6dd9b8b-7d16-4f06-a131-774c7ba51d74)
 
