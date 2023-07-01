@@ -53,6 +53,13 @@ The project involves extracting, collecting, and processing Swiggy restaurants' 
 
 4. This is what the cleaned data was looking like.
 
+--Machine Learning Model--
+
+![Screenshot 2023-07-01 183325](https://github.com/Ashish23-Karn/Swiggy-Restrauant-Recommendation-Model/assets/121361369/54f6f9db-39b6-4f0b-b09a-993f974e3807)
+
+![Screenshot 2023-07-01 183408](https://github.com/Ashish23-Karn/Swiggy-Restrauant-Recommendation-Model/assets/121361369/18d8423a-2257-4c54-b8ca-f5abe4be36b9)
+
+
 --DashBoard Creation--
 
 Here is the main dashboard which is dynamic in nature and the slicer added is for different locations, cuisine, and restaurant name.
