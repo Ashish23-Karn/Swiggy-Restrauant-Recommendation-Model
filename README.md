@@ -1,10 +1,10 @@
 # Swiggy-Restrauant-Recommendation-Model
 
---Introduction--
+**--Introduction--**
 
 As it becomes crucial for customers at a new location to find the appropriate restaurant based on their preferences so a recommendation model can be a handful for the customers to get what they want and also for the companies to the betterment of services for their further future growth.
 
---Problem Aimed to Solve--
+**--Problem Aimed to Solve--**
 
 To develop a Swiggy restaurant recommender model which can predict the suitable restaurant, price for two, and dish name based on a budget price, cuisine, and location 
 
