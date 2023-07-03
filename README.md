@@ -62,8 +62,11 @@ The project involves extracting, collecting, and processing Swiggy restaurants' 
 
 **--HTML web page for Restaurants Recommender--**
 
-![Screenshot 2023-07-03 095536](https://github.com/Ashish23-Karn/Swiggy-Restrauant-Recommendation-Model/assets/121361369/eba1df4a-7ce8-4baa-adcf-5fe2f7c9e86e)
+![Screenshot 2023-07-03 231118](https://github.com/Ashish23-Karn/Swiggy-Restrauant-Recommendation-Model/assets/121361369/cb14877c-eb66-4a33-b054-82bf07c47a7b)
 
+**--HTML Flask code**
+
+![Screenshot 2023-07-03 231159](https://github.com/Ashish23-Karn/Swiggy-Restrauant-Recommendation-Model/assets/121361369/841a1347-3fb3-4931-b8c9-048aed3060a4)
 
 
 **--DashBoard Creation--**
