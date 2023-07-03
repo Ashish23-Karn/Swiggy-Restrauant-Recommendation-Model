@@ -60,6 +60,12 @@ The project involves extracting, collecting, and processing Swiggy restaurants' 
 ![Screenshot 2023-07-01 183408](https://github.com/Ashish23-Karn/Swiggy-Restrauant-Recommendation-Model/assets/121361369/18d8423a-2257-4c54-b8ca-f5abe4be36b9)
 
 
+--HTML web page for Restaurants Recommender--
+
+![Screenshot 2023-07-03 095536](https://github.com/Ashish23-Karn/Swiggy-Restrauant-Recommendation-Model/assets/121361369/eba1df4a-7ce8-4baa-adcf-5fe2f7c9e86e)
+
+
+
 --DashBoard Creation--
 
 Here is the main dashboard which is dynamic in nature and the slicer added is for different locations, cuisine, and restaurant name.
