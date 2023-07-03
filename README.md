@@ -8,7 +8,7 @@ As it becomes crucial for customers at a new location to find the appropriate re
 
 To develop a Swiggy restaurant recommender model which can predict the suitable restaurant, price for two, and dish name based on a budget price, cuisine, and location 
 
---Data Description--
+**--Data Description--**
 
 1. EXCEL FILES: This folder contains 3 Excel files where
 a. swiggy_table1 has the link of the restaurant, name of the restaurant, cuisine, price for 2 customers, and rating of the restaurants in .csv format.
@@ -22,11 +22,11 @@ c. swiggy_model file contains the code to create an algorithm to predict the res
 
 3. restaurant_recommender folder has the source code file which we used to show our model on the HTML webpage.
  
---Methodolgy--
+**--Methodolgy--**
 
 The project involves extracting, collecting, and processing Swiggy restaurants' data and then utilizes data analysis techniques and machine learning modeling to predict the final output based on the preferences.
 
---Phases--
+**--Phases--**
 
 ![Screenshot 2023-07-01 074157](https://github.com/Ashish23-Karn/Swiggy-Restrauant-Recommendation-Model/assets/121361369/46949c29-50ad-47c3-a6b2-41b0dfd480a9)
 
@@ -53,27 +53,27 @@ The project involves extracting, collecting, and processing Swiggy restaurants' 
 
 4. This is what the cleaned data was looking like.
 
---Machine Learning Model--
+**--Machine Learning Model--**
 
 ![Screenshot 2023-07-01 183325](https://github.com/Ashish23-Karn/Swiggy-Restrauant-Recommendation-Model/assets/121361369/54f6f9db-39b6-4f0b-b09a-993f974e3807)
 
 ![Screenshot 2023-07-01 183408](https://github.com/Ashish23-Karn/Swiggy-Restrauant-Recommendation-Model/assets/121361369/18d8423a-2257-4c54-b8ca-f5abe4be36b9)
 
 
---HTML web page for Restaurants Recommender--
+**--HTML web page for Restaurants Recommender--**
 
 ![Screenshot 2023-07-03 095536](https://github.com/Ashish23-Karn/Swiggy-Restrauant-Recommendation-Model/assets/121361369/eba1df4a-7ce8-4baa-adcf-5fe2f7c9e86e)
 
 
 
---DashBoard Creation--
+**--DashBoard Creation--**
 
 Here is the main dashboard which is dynamic in nature and the slicer added is for different locations, cuisine, and restaurant name.
 
 ![Screenshot 2023-07-01 074506](https://github.com/Ashish23-Karn/Swiggy-Restrauant-Recommendation-Model/assets/121361369/34978159-7882-4108-9566-806a7c07d06d)
 
 
---Insights--
+**--Insights--**
 
 Through Excel DashBoard, the project represents some valuable insights in a visually engaging manner, using charts, graphs, and slicers. These visual representations help to show the trend for different locations, and cuisine, enabling customers/decision makers to make well-informed decisions.
 
@@ -97,7 +97,7 @@ Here are the details of the cuisineS at top locations in Bangalore.
 
 Here are some dishes with higher prices being served in Bangalore, one can conclude that the "butter naan combo" dish has the highest price for all.
 
---Challenges and learnings--
+**--Challenges and learnings--**
 
 1. The main challenge posed by this project was to create a webpage by using HTML to show our model.
 2. Another challenge posed by this project was to scrape the data from the Swiggy website at first, cleaned it as there was a lot of noise in the data and redundant values as well, then by choosing the appropriate ml algorithm to predict correctly.
